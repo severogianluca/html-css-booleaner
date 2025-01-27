@@ -1,9 +1,22 @@
-.banner{
-    background-image: url(../img/pattern.png) ;
-    background-color: rgb(129, 174, 233);
-    height: 180px;
+
+body {
+    margin: 0; /* Mantiene l'intero layout pulito */
+    padding: 0;
 }
 
-.logo{
-    height: 10px;
+.banner {
+
+    background-image: url(../img/pattern.png); 
+    background-color: rgb(129, 174, 233); 
+    height:170px; 
+    display: flex;
+    justify-content:left; 
+    align-items: flex-end; 
+    
+}
+
+
+.logo {
+    width: 300px; /* Dimensione dell'immagine */
+    height: auto; /* Mantieni le proporzioni */
 }
