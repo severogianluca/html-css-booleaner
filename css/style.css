@@ -1,0 +1,9 @@
+.banner{
+    background-image: url(../img/pattern.png) ;
+    background-color: rgb(129, 174, 233);
+    height: 180px;
+}
+
+.logo{
+    height: 10px;
+}
