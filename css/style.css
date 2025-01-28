@@ -28,15 +28,30 @@ body {
 h3, h4 {
     margin: 0; /* Rimuove il margine predefinito */
     padding: 0; /* Rimuove eventuale padding */
-    line-height: 1; /* Controlla l'altezza della riga */
     color: gray;
 }
 
 h5{
-    margin: 0; /* Rimuove il margine predefinito */
+    margin: 0;
     padding: 0; /* Rimuove eventuale padding */
 }
 
 .yellow-background{
     background-color: yellow;
 }
+
+
+/* unisce i bordi della delle celle della tabella */
+table {
+    border-collapse: collapse;
+}
+
+.testa{
+    background-color: rgb(42, 103, 182);
+    
+}
+
+.sfondo{
+    background-color: aquamarine;
+}
+
