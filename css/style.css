@@ -20,3 +20,14 @@ body {
     width: 300px; /* Dimensione dell'immagine */
     height: auto; /* Mantieni le proporzioni */
 }
+
+.forza{
+    color:rgb(27, 216, 216);
+}
+
+h3, h5 {
+    margin: 0; /* Rimuove il margine predefinito */
+    padding: 0; /* Rimuove eventuale padding */
+    line-height: 1; /* Controlla l'altezza della riga */
+    color: gray;
+}
